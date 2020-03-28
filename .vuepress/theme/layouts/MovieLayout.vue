@@ -26,7 +26,9 @@
           </div>
           <div class="nav-links">
             <strong>星级>=</strong>
-            <star-rating
+            <component
+              v-if="starComponent"
+              :is="starComponent"
               v-model="rating"
               :star-size="24"
               inline
@@ -54,7 +56,7 @@
           </div>
         </div>
       </div>
-      <modal name="movie-meta" height="auto">
+      <modal v-if="showModal" @close="showModal = false">
         <div class="movie-meta">
           <h3>
             <a :href="meta.url">{{ meta.name }} ({{ meta.pub_year }})</a>
@@ -70,17 +72,19 @@
 
 <script>
 import ParentLayout from '@parent-theme/layouts/Layout.vue'
-import StarRating from 'vue-star-rating'
+import Modal from '@theme/components/Modal.vue'
 
 export default {
-  components: { ParentLayout, StarRating },
+  components: { ParentLayout, Modal },
   data() {
     return {
       movieList: [],
       meta: {},
       watchYearOptions: [],
       curYear: null,
-      rating: null
+      rating: null,
+      starComponent: null,
+      showModal: false
     }
   },
   computed: {
@@ -98,6 +102,9 @@ export default {
     }
   },
   mounted() {
+    import('vue-star-rating').then(module => {
+      this.starComponent = module.default
+    })
     this.loadData()
   },
   methods: {
@@ -133,7 +140,7 @@ export default {
     },
     showMeta(meta) {
       this.meta = meta
-      this.$modal.show('movie-meta')
+      this.showModal = true
     },
     selectYear(year) {
       this.curYear = year
@@ -186,9 +193,7 @@ export default {
   background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   padding: 3px;
 }
-.v--modal {
-  background-color: rgba(0, 0, 0, 0.7);
-}
+
 .movie-meta {
   padding: 0.5em 1em;
   color: white;

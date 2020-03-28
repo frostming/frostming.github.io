@@ -1,6 +1,5 @@
 {
   "devDependencies": {
-    "vue-js-modal": "^1.3.33",
     "vue-star-rating": "^1.6.1",
     "vuepress": "^1.4.0"
   }

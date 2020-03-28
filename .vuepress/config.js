@@ -6,6 +6,7 @@ module.exports = {
       { text: 'Blog', link: 'https://frostming.com' }
     ]
   },
+  title: "Frost Ming's Wiki",
   head: [
     [
       'link',
