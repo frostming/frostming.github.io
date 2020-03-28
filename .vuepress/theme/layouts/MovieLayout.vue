@@ -92,6 +92,9 @@ export default {
         .filter(v => {
           return this.rating <= 0 ? true : v.star >= this.rating
         })
+    },
+    thisYear() {
+      return new Date().getFullYear()
     }
   },
   mounted() {
@@ -108,6 +111,7 @@ export default {
           }
         })
       })
+      this.curYear = this.thisYear
     },
     loadImage(url) {
       return fetch(url, {
