@@ -488,6 +488,24 @@ data:
   comment: 冲着哈利贝瑞漏点场景来的，狼叔和风暴女的前世情缘。但看的时候一直被打断，也没有认真看出结局，好像是个反转来着。
     但这部电影对黑客恐怕是有什么误解：1、不是你随便扔给人家一台电脑人家就能上手，搭环境半天都没了哥。
     2、如果天天泡电脑前的黑客都和这位相貌平平无奇的狼叔一样，那我还搞啥电脑啊！
+
+- name: 狩猎
+  url: https://movie.douban.com/subject/30182726/
+  cover: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2585533507.webp
+  pub_year: 2020
+  watch_year: 2020
+  star: 3
+  comment: 电影的前十分钟简直是R级恶趣味，有些后悔在长辈面前打开来看了，但后面却没有了。早就猜到会有一个逆天的主角出现，但前几个出场的
+    长得还行的貌似主角都飞速领了便当。主角出现以后电影就没悬念了，其实这个电影预设的背景也是有些站不住脚的。
+
+- name: 绝地战警：疾速追击
+  url: https://movie.douban.com/subject/4014397/
+  cover: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574873790.webp
+  pub_year: 2020
+  watch_year: 2020
+  star: 2
+  comment: 非常公式化的，两个叛逆的，互相打嘴炮的警察的故事结构。国产的《胖子行动队》不也是这个套路么。但说来说去，都比不过
+    《热血警探》。
 ---
 
 # Movies
