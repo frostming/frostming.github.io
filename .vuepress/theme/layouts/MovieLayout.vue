@@ -159,15 +159,24 @@ export default {
 }
 .grid {
   display: flex;
-  margin: 0 -0.5rem;
   flex-wrap: wrap;
 }
 
 .grid-item {
-  width: 25%;
+  width: 50%;
   padding: 0.5rem;
   flex: none;
   box-sizing: border-box;
+}
+
+@media (min-width: 992px) {
+  .grid-item {
+    width: 25%;
+  }
+
+  .grid {
+    margin: 0 -0.5rem;
+  }
 }
 
 .grid-item img {

@@ -506,6 +506,24 @@ data:
   star: 2
   comment: 非常公式化的，两个叛逆的，互相打嘴炮的警察的故事结构。国产的《胖子行动队》不也是这个套路么。但说来说去，都比不过
     《热血警探》。
+
+- name: 小妇人
+  url: https://movie.douban.com/subject/26348103/
+  cover: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2575325937.webp
+  pub_year: 2020
+  watch_year: 2020
+  star: 3
+  comment: 名著改编，冲着我女神西尔莎罗南看的。看完后发现，我这种不学无术的还是不适合看名著，想评论都发现没什么词儿！电影对我来说有点清淡了。
+
+- name: 生态箱
+  url: https://movie.douban.com/subject/30211753/
+  cover: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2581808103.webp
+  pub_year: 2019
+  watch_year: 2020
+  star: 2
+  comment: 科幻悬疑类的失败典范，故作高深却不知所云。电影里面男主一直在一个坑，最后却把自己埋进去了，多么像本片导演和编剧啊。
+    神秘的符号和书本是什么意思？平行世界那么多，为啥Martin却只有一个？怪小孩为啥脖子粗大以后却并没有更多的作用了？这些怪人是什么人？
+    可能这个片子作为10分钟的短片装装逼可以，弄成90分钟长片就不知所云了。
 ---
 
 # Movies
