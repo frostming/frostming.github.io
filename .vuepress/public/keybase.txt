@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/frostming
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://fming.dev
+  * I am frostming (https://keybase.io/frostming) on keybase.
+  * I have a public key with fingerprint 1A21 DF26 CF48 7A9B 9E9B  C482 7B28 4C8F CC08 5EFF
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101a0e771f68e74c6a7da760209e1291e6f3752eb95957a7f5db9b7a22d9a3e03200a",
+      "fingerprint": "1a21df26cf487a9b9e9bc4827b284c8fcc085eff",
+      "host": "keybase.io",
+      "key_id": "7b284c8fcc085eff",
+      "kid": "0101a0e771f68e74c6a7da760209e1291e6f3752eb95957a7f5db9b7a22d9a3e03200a",
+      "uid": "7f2c1e1dd4d567bd8d502d20ec103f19",
+      "username": "frostming"
+    },
+    "service": {
+      "hostname": "fming.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1609311944,
+  "expire_in": 157680000,
+  "prev": "cb12c8d6f7761f2241bf2df8e60bc4f8f7bcbb9d976b2dace13dffc33f9b16ec",
+  "seqno": 20,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIgAnicrVJHaBVBGH5JTNSI0QgqiFgWCR5enjuzZXYeosSIilERFAtJeExNlph9
+L7ubIhoVG+LJiESM5WADIWhQMViwRLGQg4hYDgmIRqyxIIpdZy03j85lmH++9s/8
+V4bmxPKzyj/vOdl7pPRCVvel1vpY6mXR9VUaTfOVWnKVViN+bWIFF0GYqnG5ltR0
+oAOiC4SAtB2BTGYTxAmydahjASAGwpYGsqCg2MIWIkhanGKKCIQcE0PoBtR1osU1
+6XpVws/4rhcqWUAg4BLaTJoOIphigSkzHYgodEzmSMZ0xxJSKmJ1OogYKhwlgUi4
+aVVTh9SveP/A/+fc9b99JGRAAM5NbtmIcodbOuRQFwzohgQ4AgbC90itUGjpq8y1
+qmGtOa6pcoPLRPSyUSt/IdF1gosGxcz46TDN0itUuToMM0EyooUrMxGuUdDUH4UU
+dT0eica1BuEHbtrTkkAhWehGksDWsQEANs24Jpoyri9SboSwkO3oakU+yi6pMQog
+c7gtEbKBhNAEVEIuHWHr6g+kIxFllGKOkU0hJ0wAg0vJDENiCmzBtKinOi+tJaES
+DUmV0gzcKo+E9b7QmrsuVgyIZeXH8nKzo/GK5Q8e/nfoFtYN/FHZX/V5mNx6qmNm
+W2EwZdOQu5vxucEPbj485J9uJx+yu3Z8fVP2qWT7qLJnjSMnPD+Dp4Hj/rx9Owe1
+rT/WNmJjafn9EzDn9aSl8YKm0SfiPcdfZ3tnb78tvday5OqPu287175akri0e66f
+VzesZ6KxZvyW7v6L+oGDU0u2bSieMTtRdC5hFJHH5ztashpvPZOHd42Zem9RQfX7
+ou/rZqW2tuS+61tWc+d9a+vJ3Iryq7Ud9tEXHy/3LP9WsPpC/s1iuXhazo0F+6c3
+VhYPafaMQ6NFpv1Od9hRsrupJdgyYGh/Z9P5SV19haOS3qaPT3qzJ8+fM+7pl71l
+z5+ObU5YeebtMkoKHv0EkA9EQw==
+=nVnu
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/frostming
+
+==================================================================
