@@ -43,7 +43,6 @@
             class="grid-item"
             v-for="(v, k) in filteredList"
             :key="k"
-            :data-pubyear="v.pub_year"
             :data-watchyear="v.watch_year"
             :data-star="v.star"
           >
@@ -59,7 +58,7 @@
       <modal v-if="showModal" @close="showModal = false">
         <div class="movie-meta">
           <h3>
-            <a :href="meta.url">{{ meta.name }} ({{ meta.pub_year }})</a>
+            <a :href="meta.url">{{ meta.name }}</a>
           </h3>
           <hr />
           <p><strong>推荐度: </strong>{{ '⭐'.repeat(meta.star) }}</p>
@@ -73,11 +72,13 @@
 <script>
 import ParentLayout from '@parent-theme/layouts/Layout.vue'
 import Modal from '@theme/components/Modal.vue'
+import items from '@theme/data/movies.json'
 
 export default {
   components: { ParentLayout, Modal },
   data() {
     return {
+      items,
       movieList: [],
       meta: {},
       watchYearOptions: [],
@@ -109,7 +110,7 @@ export default {
   },
   methods: {
     loadData() {
-      this.$frontmatter.data.forEach(v => {
+      this.items.forEach(v => {
         v.comment = v.comment.replace(/\n/g, '<br>')
         this.loadImage(v.cover).then(blob => {
           this.movieList.push({ ...v, cover: blob })

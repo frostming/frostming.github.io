@@ -1,6 +1,15 @@
 {
+  "scripts": {
+    "dev": "vuepress dev .",
+    "build": "vuepress build ."
+  },
   "devDependencies": {
     "vue-star-rating": "^1.6.1",
     "vuepress": "^1.4.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "xmldom": "^0.4.0",
+    "xpath": "^0.0.32"
   }
 }
