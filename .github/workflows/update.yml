@@ -1,0 +1,32 @@
+name: Update Movies from Douban
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  update:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js 10
+      uses: actions/setup-node@v1
+      with:
+        node-version: 10.x
+    - run: yarn install
+    - run: |
+        node douban.js
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A .
+        if [ $(git status -s | wc -l) -ne 0 ]; then
+          git commit -m "Update movies"
+          git push https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:master
+        else
+          echo "Nothing to update"
+        fi
+      env:
+        DOUBAN_USER: frostming
