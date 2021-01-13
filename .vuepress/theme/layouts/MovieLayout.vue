@@ -47,7 +47,7 @@
             :data-star="v.star"
           >
             <a href="#" @click.prevent="showMeta(v)">
-              <img :src="v.cover" referrerpolicy="no-referrer" />
+              <img :src="v.image" referrerpolicy="no-referrer" />
               <div class="star">
                 {{ v.name }}<br />{{ '⭐'.repeat(v.star) }}
               </div>
@@ -102,22 +102,27 @@ export default {
       return new Date().getFullYear()
     }
   },
-  mounted() {
+  created() {
     import('vue-star-rating').then(module => {
       this.starComponent = module.default
     })
     this.loadData()
   },
+  mounted() {
+    this.movieList.forEach(e => {
+      this.loadImage(e.cover).then(url => {
+        e.image = url
+      })
+    })
+  },
   methods: {
     loadData() {
       this.items.forEach(v => {
         v.comment = v.comment.replace(/\n/g, '<br>')
-        this.loadImage(v.cover).then(blob => {
-          this.movieList.push({ ...v, cover: blob })
-          if (this.watchYearOptions.indexOf(v.watch_year) < 0) {
-            this.watchYearOptions.push(v.watch_year)
-          }
-        })
+        this.movieList.push({ ...v, comment: v.comment.replace(/\n/g, '<br>'), image: this.$withBase('/static/loading.gif') })
+        if (this.watchYearOptions.indexOf(v.watch_year) < 0) {
+          this.watchYearOptions.push(v.watch_year)
+        }
       })
       this.curYear = this.thisYear
     },
@@ -197,7 +202,6 @@ export default {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 46px;
   line-height: 20px;
   vertical-align: middle;
   background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
