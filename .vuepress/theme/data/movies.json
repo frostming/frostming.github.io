@@ -1,5 +1,14 @@
 [
   {
+    "name": "心灵奇旅 / Soul",
+    "url": "https://movie.douban.com/subject/24733428/",
+    "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2626308994.jpg",
+    "date": "2021-07-31",
+    "star": 4,
+    "comment": "",
+    "watch_year": 2021
+  },
+  {
     "name": "我的姐姐",
     "url": "https://movie.douban.com/subject/35158160/",
     "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2630463690.jpg",
@@ -74,7 +83,7 @@
   {
     "name": "小人物 / Nobody",
     "url": "https://movie.douban.com/subject/34865507/",
-    "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2636551330.jpg",
+    "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2640615589.jpg",
     "date": "2021-04-18",
     "star": 4,
     "comment": "",
