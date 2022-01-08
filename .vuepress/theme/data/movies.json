@@ -1,5 +1,32 @@
 [
   {
+    "name": "长津湖",
+    "url": "https://movie.douban.com/subject/25845392/",
+    "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2681329386.jpg",
+    "date": "2022-01-08",
+    "star": 3,
+    "comment": "",
+    "watch_year": 2022
+  },
+  {
+    "name": "铁道英雄",
+    "url": "https://movie.douban.com/subject/35205446/",
+    "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2684720964.jpg",
+    "date": "2022-01-08",
+    "star": 3,
+    "comment": "",
+    "watch_year": 2022
+  },
+  {
+    "name": "冰血暴 第一季 / Fargo Season 1",
+    "url": "https://movie.douban.com/subject/24297912/",
+    "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2173896435.jpg",
+    "date": "2022-01-08",
+    "star": 4,
+    "comment": "够黑色，够幽默",
+    "watch_year": 2022
+  },
+  {
     "name": "最佳出价 / La migliore offerta",
     "url": "https://movie.douban.com/subject/7059671/",
     "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2039855496.jpg",
@@ -47,7 +74,7 @@
   {
     "name": "芬奇 / Finch",
     "url": "https://movie.douban.com/subject/26897885/",
-    "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2711915971.jpg",
+    "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2721066869.jpg",
     "date": "2021-11-25",
     "star": 4,
     "comment": "末日中的温情与感动，汉克斯yyds",
