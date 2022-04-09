@@ -1,5 +1,32 @@
 [
   {
+    "name": "红色通缉令 / Red Notice",
+    "url": "https://movie.douban.com/subject/30143331/",
+    "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2702918768.jpg",
+    "date": "2022-04-09",
+    "star": 3,
+    "comment": "盖尔加朵杀我",
+    "watch_year": 2022
+  },
+  {
+    "name": "这个杀手不太冷静",
+    "url": "https://movie.douban.com/subject/35505100/",
+    "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2814949620.jpg",
+    "date": "2022-04-09",
+    "star": 2,
+    "comment": "",
+    "watch_year": 2022
+  },
+  {
+    "name": "狙击手",
+    "url": "https://movie.douban.com/subject/35215390/",
+    "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2738601191.jpg",
+    "date": "2022-03-27",
+    "star": 2,
+    "comment": "当一个你还没熟悉的人物死在我面前。我：他是谁？完全无法共情，越用BGM煽情越尴尬。这是导演功力的问题。",
+    "watch_year": 2022
+  },
+  {
     "name": "以年为单位的恋爱",
     "url": "https://movie.douban.com/subject/35446144/",
     "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2715903096.jpg",
@@ -38,7 +65,7 @@
   {
     "name": "一句顶一万句",
     "url": "https://movie.douban.com/subject/26389466/",
-    "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2389970856.jpg",
+    "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2870299561.jpg",
     "date": "2022-02-20",
     "star": 2,
     "comment": "",
@@ -216,7 +243,7 @@
     "watch_year": 2021
   },
   {
-    "name": "鱿鱼游戏 / 오징어 게임",
+    "name": "鱿鱼游戏 第一季 / 오징어 게임",
     "url": "https://movie.douban.com/subject/34812928/",
     "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2677934359.jpg",
     "date": "2021-10-24",
