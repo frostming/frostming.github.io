@@ -1,5 +1,14 @@
 [
   {
+    "name": "狂飙",
+    "url": "https://movie.douban.com/subject/35465232/",
+    "cover": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2886376181.jpg",
+    "date": "2023-02-02",
+    "star": 4,
+    "comment": "惩恶扬善，只是一时之爽，这些写官场政治，反腐倡廉的，没有一个超过了大明王朝的高度",
+    "watch_year": 2023
+  },
+  {
     "name": "满江红",
     "url": "https://movie.douban.com/subject/35766491/",
     "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2886441838.jpg",
@@ -875,7 +884,7 @@
   {
     "name": "南方车站的聚会",
     "url": "https://movie.douban.com/subject/27668250/",
-    "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2574278284.jpg",
+    "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2553934187.jpg",
     "date": "2020-12-30",
     "star": 3,
     "comment": "集齐三个文艺片专业户桂纶镁、廖凡、黄觉。以为是个文艺片，结果上来一个割头教我做人。文艺片要想有质感，用方言是很有用的。 有意思的是片中出现了三次集会的场景，分别是三拨不一样的人。",
@@ -1361,7 +1370,7 @@
   {
     "name": "搏击俱乐部 / Fight Club",
     "url": "https://movie.douban.com/subject/1292000/",
-    "cover": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1910926158.jpg",
+    "cover": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2173050934.jpg",
     "date": "2014-10-31",
     "star": 5,
     "comment": "",
